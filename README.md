@@ -22,8 +22,6 @@ This project demonstrates:
 - 📩 Message & email drafting
 - 🔍 Research and lead generation support
 - ⚙️ Automation and productivity tasks
-- 💻 Developer assistance (debugging, scripting ideas)
-
 ---
 
 ## 🏗️ Architecture
@@ -52,3 +50,5 @@ Open PowerShell as Administrator and run:
 
 ```bash
 # Run installation command (from official site)
+If error occurs:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
